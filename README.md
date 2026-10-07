@@ -115,34 +115,27 @@ A aplicação utiliza essa View para apresentar o **Relatório de Vendas** ao us
 
 ## 📁 Estrutura do projeto
 
-```text
-sistema-vendas/
-│
-├── src/
-│   ├── database.py
-│   ├── main.py
-│   ├── produtos.py
-│   ├── relatorio.py
-│   └── vendas.py
-│
-├── database/
-│   ├── tables/
-│   │   └── tabelas.sql
-│   │
-│   ├── inserts/
-│   │   └── dados.sql
-│   │
-│   ├── functions/
-│   │   └── calcular_total.sql
-│   │
-│   ├── procedures/
-│   │   └── registrar_venda.sql
-│   │
-│   └── views/
-│       └── vw_relatorio_vendas.sql
-│
-└── README.md
-```text
+A organização dos arquivos do projeto está dividida entre a aplicação Python e os scripts do banco de dados.
+
+**sistema-vendas/**
+- 📂 **src/**
+  - `database.py`
+  - `main.py`
+  - `produtos.py`
+  - `relatorio.py`
+  - `vendas.py`
+- 📂 **database/**
+  - 📂 **tables/**
+    - `tabelas.sql`
+  - 📂 **inserts/**
+    - `dados.sql`
+  - 📂 **functions/**
+    - `calcular_total.sql`
+  - 📂 **procedures/**
+    - `registrar_venda.sql`
+  - 📂 **views/**
+    - `vw_relatorio_vendas.sql`
+- `README.md`
 
 ---
 
@@ -193,7 +186,6 @@ Abra o terminal na pasta do projeto e execute:
 No arquivo `src/database.py`, configure os dados de acesso ao PostgreSQL:
 
     import psycopg2
-
 
     def conectar():
         return psycopg2.connect(
@@ -255,3 +247,4 @@ Posteriormente, o usuário pode consultar as vendas realizadas através do relat
 Este projeto foi desenvolvido como atividade acadêmica com o objetivo de aplicar conhecimentos de **Banco de Dados, SQL, PL/pgSQL, programação em Python e integração entre aplicação e banco de dados**.
 
 O projeto demonstra a utilização prática de **Function, Procedure e View** em uma aplicação integrada a um banco de dados PostgreSQL.
+
