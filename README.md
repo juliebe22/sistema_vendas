@@ -143,6 +143,8 @@ sistema-vendas/
 │
 └── README.md
 
+---
+
 ## 🚀 Como executar
 
 ### 1. Requisitos
