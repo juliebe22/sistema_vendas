@@ -142,6 +142,7 @@ sistema-vendas/
 │       └── vw_relatorio_vendas.sql
 │
 └── README.md
+```text
 
 ---
 
