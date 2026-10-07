@@ -248,3 +248,7 @@ Este projeto foi desenvolvido como atividade acadêmica com o objetivo de aplica
 
 O projeto demonstra a utilização prática de **Function, Procedure e View** em uma aplicação integrada a um banco de dados PostgreSQL.
 
+---
+## 📷 Vídeo explicativo 
+
+https://drive.google.com/drive/folders/19ijt6m0VH36XajvYhE5XkPWuegUReADD?usp=sharing
